@@ -23,7 +23,7 @@ export const ButtonContainer = styled.button<ButtonContainerProps>`
   border-radius: 8px;
   margin: 8px;
 
-  background-color: ${(props) => props.theme.primary};
+  background-color: ${(props) => props.theme['blue-500']};
   color: ${(props) => props.theme.white};
   //interpolação de string
   //o styled component fará que com o codigo dessa interpolção seja executado como uma função
