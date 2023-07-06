@@ -14,5 +14,5 @@ export function App() {
       </BrowserRouter>
       <GlobalStyle />
     </ThemeProvider>
-  ) eu to aqui
+  )
 }
