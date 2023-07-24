@@ -7,7 +7,7 @@ import { Router } from './Router'
 
 export function App() {
   return (
-    //o thema só vai ser aplicado para elementos que estiverem dendtro do ThemeProvider
+    //o tema só vai ser aplicado para elementos que estiverem dentro do ThemeProvider
     <ThemeProvider theme={defaultTheme}>
       <BrowserRouter>
         <Router />

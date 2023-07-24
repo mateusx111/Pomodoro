@@ -20,7 +20,7 @@ export const HeaderContainer = styled.header`
 
     color: ${(props) => props.theme['gray-500']};
 
-    /*bottom para que o icone n levante no hover e top para centralizar compensando a diferença  */
+    /*bottom para que o ícone n levante no hover e top para centralizar compensando a diferença  */
     border-top: 3px solid transparent;
     border-bottom: 3px solid transparent;
 
