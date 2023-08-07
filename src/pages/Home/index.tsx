@@ -36,6 +36,7 @@ interface Cycle {
 export function Home() {
   const [cycles, setCycles] = useState<Cycle[]>([])
   const [activeCycleId, setActiveCycleId] = useState<string | null>(null)
+  const [amountSecondsPassed, setAmountSecondsPassed] = useState(0)
 
   const { register, handleSubmit, watch, reset } = useForm<NewcycleDataForm>({
     resolver: zodResolver(newCycleFormValidationSchema),
@@ -46,15 +47,27 @@ export function Home() {
   })
 
   function handleCreateNewCycle(data: NewcycleDataForm) {
+    const id = String(new Date().getTime()) //data atual convertida pra mls e p\ string
+
     const newCycle: Cycle = {
-      id: String(new Date().getTime()), //data atual convertida pra mls e p\ string
+      id,
       task: data.task,
       minutesAmount: data.minutesAmount,
     }
 
     setCycles((state) => [...state, newCycle]) // adicionando o novo ciclo no array
+    setActiveCycleId(id)
+
     reset()
   }
+
+  const activeCycle = cycles.find((cycle) => cycle.id === activeCycleId)
+
+  const totalSeconds = activeCycle ? activeCycle.minutesAmount * 60 : 0
+  const currentSeconsds = activeCycle ? totalSeconds - amountSecondsPassed : 0
+
+  const muninutesAmount = Math.floor(currentSeconsds / 60) // arredonda para baixo
+  const secondsAmount = currentSeconsds % 60
 
   const task = watch('task')
   const isSubmitDisabled = !task
