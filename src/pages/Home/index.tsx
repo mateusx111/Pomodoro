@@ -1,6 +1,5 @@
 import { HandPalm, Play } from 'phosphor-react'
 import { createContext, useState } from 'react'
-
 import {
   HomeContainer,
   StartCountdownButton,
@@ -11,6 +10,7 @@ import { Countdown } from './components/Countdown'
 import * as zod from 'zod'
 import { zodResolver } from '@hookform/resolvers/zod'
 import { FormProvider, useForm } from 'react-hook-form'
+
 interface Cycle {
   id: string // para representar o cada ciclo individualmente
   task: string
