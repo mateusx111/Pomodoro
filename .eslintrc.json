@@ -4,6 +4,7 @@
     ],
     "rules": {
       "spaced-comment":"off",
-      "array-callback-return":"off"
+      "array-callback-return":"off",
+      "no-unused-vars":"off"
     }
   }
