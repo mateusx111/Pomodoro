@@ -24,7 +24,8 @@ Para rodar o repositório é necessário clonar o mesmo, dar o seguinte comando 
 
 ```
 npm install
-
+```
+```
 npm run dev
 
 ```
