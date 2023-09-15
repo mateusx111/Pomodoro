@@ -16,7 +16,9 @@ Um aplicativo de Pomodoro é uma ferramenta de produtividade que ajuda os usuár
 - ReactJS;
 - Typescript
 - ZOD
+- Date-fns
 - Vite
+- eslint
 
 ## :rocket: Rodando o projeto
 
@@ -27,12 +29,11 @@ npm install
 ```
 ```
 npm run dev
-
 ```
 
 ## :soon: Implementação futura
 
-- O que será implementado na próxima sprint?
+- ????
 
 ## :handshake: Colaboradores
 
@@ -52,3 +53,5 @@ npm run dev
 ## :dart: Status do projeto
 
 - CONCLUÍDO
+
+## Espero que tenha gostado! 😄
