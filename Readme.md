@@ -55,3 +55,5 @@ npm run dev
 - CONCLUÍDO
 
 ## Espero que tenha gostado! 😄
+
+## [![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/mateus-s-santos-8b89791b6/)](https://www.linkedin.com/in/mateus-s-santos-8b89791b6/)
