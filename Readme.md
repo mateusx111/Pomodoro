@@ -23,7 +23,9 @@ Um aplicativo de Pomodoro é uma ferramenta de produtividade que ajuda os usuár
 Para rodar o repositório é necessário clonar o mesmo, dar o seguinte comando para iniciar o projeto:
 
 ```
-<linha de comando>
+npm install
+
+npm run dev
 
 ```
 
@@ -36,10 +38,10 @@ Para rodar o repositório é necessário clonar o mesmo, dar o seguinte comando 
 <table>
 <tr>
 <td align="center">
-<a href="http://github.com/tatialveso">
-<img src="https://avatars.githubusercontent.com/u/56259137?v=4" width="100px;" alt="Foto de Tati Alves no GitHub"/><br>
+<a href="http://https://github.com/mateusx111">
+<img src="https://github.com/mateusx111.png" width="100px;" alt="Foto de Mateus Souza no GitHub"/><br>
 <sub>
-<b>tatialveso</b>
+<b>Mateus Souza</b>
 </sub>
 </a>
 </td>
