@@ -49,3 +49,5 @@ npm run dev
 </table>
 
 ## :dart: Status do projeto
+
+- CONCLUÍDO
